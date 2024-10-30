@@ -1,0 +1,33 @@
+.container-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 145px;
+    border-radius: 5px;
+    margin: 10px 5px 10px 5px;
+    padding: 8px;
+    cursor: pointer;
+    border: solid white 1px;
+    border-radius: 10px;
+  }
+  
+  .background-color-blue {
+    background: rgba(0, 0, 255, 0.685);
+  }
+  
+  .background-color-purple {
+    background: rgba(150, 0, 92, 0.781);
+  }
+  
+  .num:hover {
+    background: rgb(245, 245, 245);
+    color: black;
+  }
+  
